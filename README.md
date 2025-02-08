@@ -7,7 +7,7 @@
    
 4. run the application `bun dev`
    
-5. access the site on http:localhost:3000/campaigns
+5. access the site on http://localhost:3000/campaigns
 
 6. Enjoy :)
    
