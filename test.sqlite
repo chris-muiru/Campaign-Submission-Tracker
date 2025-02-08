@@ -1,0 +1,17 @@
+-- campaigns table
+CREATE TABLE campaigns (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    status TEXT NOT NULL,
+    deadline TEXT NOT NULL
+);
+
+-- submissions table
+CREATE TABLE submissions (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    campaign_id INTEGER NOT NULL,
+    influencer_id INTEGER NOT NULL,
+    content_link TEXT NOT NULL,
+    submission_date TEXT NOT NULL,
+    FOREIGN KEY (campaign_id) REFERENCES campaigns(id)
+);
