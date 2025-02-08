@@ -1,5 +1,5 @@
 <!-- instructions to start project -->
-1.clone the repo: git clone <url>
+1.clone the repo: git clone https://github.com/chris-muiru/Campaign-Submission-Tracker
 2. using the package manager of your choice(`yarn|npm|pnpm|bun`),install the packages.
 3. In my case i will use bun: `bun install`
 4. run the application `bun dev`
